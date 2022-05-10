@@ -1,29 +1,26 @@
-import React from 'react';
-import NavBar from './components/NavBar';
-import Image from './components/Image';
-import Portfolio from './components/Portfolio';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Copyright from './components/Copyright';
+import React from 'react'
+
+import Hero from './components/Hero'
+import NavBar from './components/NavBar'
+import ShowCase from './components/ShowCase'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 
 
-const App = () => {
+
+
+
+
+export default function App() {
     return (
         <div>
             <NavBar />
-            <Image />
-            <Portfolio />
-            <About />
+            <Hero />
+            <ShowCase />
             <Contact />
             <Footer />
-            <Copyright />
-
         </div>
-    );
-};
-
-
-export default App;
+    )
+}
